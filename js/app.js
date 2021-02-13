@@ -1,10 +1,8 @@
 'use strict';
 
 let userName=prompt('What\'s your name ?');
-// console.log(userName)
 function questionOne (){
   let questionOne=prompt('Am I a Developer ?');
-  // console.log(questionOne);
   switch (questionOne.toLowerCase()) {
   case 'no':
   case 'n':
@@ -23,7 +21,6 @@ questionOne ();
 
 function questionTwo (){
   let questionTwo=prompt('Am I Jordanian ?');
-  // console.log(questionTwo);
   switch (questionTwo.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -41,7 +38,6 @@ questionTwo ();
 
 function questionThree(){
   let questionThree=prompt('You think that I have any experience ?');
-  // console.log(questionThree);
   switch (questionThree.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -59,7 +55,6 @@ questionThree();
 
 function questionFour(){
   let questionFour=prompt('Do I like coding ?');
-  // console.log(questionFour);
   switch (questionFour.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -77,7 +72,6 @@ questionFour();
 
 function questionFive(){
   let questionFive=prompt('Am I your friend ?');
-  // console.log(questionFive);
   switch (questionFive.toLowerCase()) {
   case 'yes':
   case 'y':
