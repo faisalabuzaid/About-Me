@@ -91,8 +91,8 @@ function questionFive(){
     break;
   }
 }
-alert('welcome to my simple website page '+userName);
 questionFive();
+alert('welcome to my simple website page '+userName);
 
 function questionSix(){
   let questionSix=prompt('Enter a number please beween 1 and 10');
